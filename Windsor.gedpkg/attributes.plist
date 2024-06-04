@@ -173,6 +173,10 @@
 			<string>Families</string>
 			<key>Album Record Type</key>
 			<string>FAM</string>
+			<key>Album Selected IDs</key>
+			<array>
+				<string>@F10@</string>
+			</array>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
@@ -188,7 +192,7 @@
 			<string>INDI</string>
 			<key>Album Selected IDs</key>
 			<array>
-				<string>@I11@</string>
+				<string>@I1@</string>
 			</array>
 			<key>Album Sorting Array</key>
 			<array>
@@ -230,6 +234,10 @@
 			<string>Multimedia Objects</string>
 			<key>Album Record Type</key>
 			<string>OBJE</string>
+			<key>Album Selected IDs</key>
+			<array>
+				<string>@M29@</string>
+			</array>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
