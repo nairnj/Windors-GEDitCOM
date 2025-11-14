@@ -170,35 +170,27 @@
 	<array>
 		<dict>
 			<key>Album Name</key>
-			<string>Families</string>
+			<string>Individuals</string>
 			<key>Album Record Type</key>
-			<string>FAM</string>
-			<key>Album Selected IDs</key>
-			<array>
-				<string>@F10@</string>
-			</array>
+			<string>INDI</string>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
-				<string>HUSB.view</string>
+				<string>view</string>
+				<string>BIRT.DATE.sdn</string>
 			</array>
 			<key>Album Type ID</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>Album Name</key>
-			<string>Individuals</string>
+			<string>Families</string>
 			<key>Album Record Type</key>
-			<string>INDI</string>
-			<key>Album Selected IDs</key>
-			<array>
-				<string>@I1@</string>
-			</array>
+			<string>FAM</string>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
-				<string>view</string>
-				<string>BIRT.DATE.sdn</string>
+				<string>HUSB.view</string>
 			</array>
 			<key>Album Type ID</key>
 			<integer>0</integer>
@@ -224,7 +216,7 @@
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
-				<string>view.reverse</string>
+				<string>view</string>
 			</array>
 			<key>Album Type ID</key>
 			<integer>0</integer>
@@ -234,10 +226,6 @@
 			<string>Multimedia Objects</string>
 			<key>Album Record Type</key>
 			<string>OBJE</string>
-			<key>Album Selected IDs</key>
-			<array>
-				<string>@M29@</string>
-			</array>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
@@ -325,10 +313,13 @@
 				<string>@I12@</string>
 				<string>@I31@</string>
 				<string>@I11@</string>
-				<string>@I6@</string>
 			</array>
 			<key>Album Record Type</key>
 			<string>User Album 2</string>
+			<key>Album Selected IDs</key>
+			<array>
+				<string>@I11@</string>
+			</array>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
