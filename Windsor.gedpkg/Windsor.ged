@@ -1,7 +1,7 @@
 0 HEAD
 1 SOUR GEDitCOM II
 2 NAME GEDitCOM II
-2 VERS 3.3
+2 VERS 3.5
 2 CORP John A. Nairn, RSAC Software
 3 ADDR Corvallis, OR 97330, USA
 1 SUBM @SUBM@
@@ -610,9 +610,13 @@
 1 OBJE @M3@
 1 NOTE @N31@
 1 CHAN
-2 DATE 9 OCT 2011
-3 TIME 22:49:59
+2 DATE 9 OCT 2026
+3 TIME 11:22:04
 1 _GCID AB9C2D78-37D5-404D-B488-E5A488257A1C
+1 TITL All titles (Prince and Duke) were rescinded
+2 DATE 3 NOV 2025
+2 PLAC London, England
+2 NOTE @N41@
 0 @I7@ INDI
 1 NAME Anne Elizabeth Alice /Windsor/
 1 SEX F
@@ -1314,6 +1318,14 @@
 2 DATE 4 Dec 1998
 3 TIME 11:20:23
 1 _GCID 95A83F93-8959-45F2-8E96-F323A7BEE79E
+0 @N41@ NOTE
+1 CONC His titles and many privledges were removed because of his association with Jeffery Epstein.
+1 REFN 9 OCT 2026 11:22:04
+2 TYPE Creation Date
+1 _GCID B745EC31-9FDF-4140-9ACC-7E730C325DFA
+1 CHAN
+2 DATE 9 OCT 2026
+3 TIME 11:22:47
 0 @N16@ NOTE
 1 CONC HRH Prince Philip, Duke of Edinburgh; Consort of Queen Elizabeth II. Philip spent his childhood in England at the home of his uncle, Louis Mountbatten, 1st Earl Mountbatten of Burma, and began a naval career in 1939, when he
 1 CONC  entered the Royal Naval College, Dartmouth. He served in both the Mediterranean and Pacific theaters during World War II and married the then Princess Elizabeth in 1947, at which time he was named Duke of Edinburgh. In 1957 he was

@@ -173,6 +173,10 @@
 			<string>Individuals</string>
 			<key>Album Record Type</key>
 			<string>INDI</string>
+			<key>Album Selected IDs</key>
+			<array>
+				<string>@I5@</string>
+			</array>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
