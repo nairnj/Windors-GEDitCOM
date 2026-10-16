@@ -191,6 +191,19 @@
 			<string>Families</string>
 			<key>Album Record Type</key>
 			<string>FAM</string>
+			<key>Album Sorting Array</key>
+			<array>
+				<integer>-1</integer>
+				<string>HUSB.view</string>
+			</array>
+			<key>Album Type ID</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Album Name</key>
+			<string>Sources</string>
+			<key>Album Record Type</key>
+			<string>FAM</string>
 			<key>Album Selected IDs</key>
 			<array>
 				<string>@F10@</string>
@@ -211,7 +224,7 @@
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
-				<string>view.reverse</string>
+				<string>view</string>
 			</array>
 			<key>Album Type ID</key>
 			<integer>0</integer>
@@ -321,10 +334,13 @@
 				<string>@I12@</string>
 				<string>@I31@</string>
 				<string>@I11@</string>
-				<string>@I6@</string>
 			</array>
 			<key>Album Record Type</key>
 			<string>User Album 2</string>
+			<key>Album Selected IDs</key>
+			<array>
+				<string>@I11@</string>
+			</array>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>

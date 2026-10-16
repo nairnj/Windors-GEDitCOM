@@ -1,7 +1,7 @@
 0 HEAD
 1 SOUR GEDitCOM II
 2 NAME GEDitCOM II
-2 VERS 3.3
+2 VERS 3.5
 2 CORP John A. Nairn, RSAC Software
 3 ADDR Corvallis, OR 97330, USA
 1 SUBM @SUBM@
@@ -610,11 +610,13 @@
 1 OBJE @M3@
 1 NOTE @N31@
 1 CHAN
-2 DATE 7 NOV 2025
-3 TIME 16:59:41
+2 DATE 9 OCT 2026
+3 TIME 11:22:04
 1 _GCID AB9C2D78-37D5-404D-B488-E5A488257A1C
-1 TITL Duke and Prince titles removed
-2 DATE 10 OCT 2025
+1 TITL All titles (Prince and Duke) were rescinded
+2 DATE 3 NOV 2025
+2 PLAC London, England
+2 NOTE @N41@
 0 @I7@ INDI
 1 NAME Anne Elizabeth Alice /Windsor/
 1 SEX F
@@ -1316,6 +1318,14 @@
 2 DATE 4 Dec 1998
 3 TIME 11:20:23
 1 _GCID 95A83F93-8959-45F2-8E96-F323A7BEE79E
+0 @N41@ NOTE
+1 CONC His titles and many privledges were removed because of his association with Jeffery Epstein.
+1 REFN 9 OCT 2026 11:22:04
+2 TYPE Creation Date
+1 _GCID B745EC31-9FDF-4140-9ACC-7E730C325DFA
+1 CHAN
+2 DATE 9 OCT 2026
+3 TIME 11:22:47
 0 @N16@ NOTE
 1 CONC HRH Prince Philip, Duke of Edinburgh; Consort of Queen Elizabeth II. Philip spent his childhood in England at the home of his uncle, Louis Mountbatten, 1st Earl Mountbatten of Burma, and began a naval career in 1939, when he
 1 CONC  entered the Royal Naval College, Dartmouth. He served in both the Mediterranean and Pacific theaters during World War II and married the then Princess Elizabeth in 1947, at which time he was named Duke of Edinburgh. In 1957 he was
@@ -1905,18 +1915,54 @@
 1 SOUR @SR3@
 2 DATA
 3 TEXT Public domain image
-0 @P37@ _PLC
-1 _PLACE Montréal, Montréal, Quebec, Canada
-1 REFN 3 JUN 2024 17:07:14
+0 @P30@ _PLC
+1 _PLACE Aberdeenshire, Scotland
+1 REFN 9 OCT 2022 14:02:22
 2 TYPE Creation Date
-1 _GCID 87FBCC21-C15E-4F4D-85F9-9535D28701D7
+1 _GCID 94E0939A-6702-494D-9148-9BAFD3EE3A2C
+0 @P14@ _PLC
+1 _PLACE Buckingham Palace, London, England
+1 _BOX Buckingham Palace
+2 _BNDS (51.5013, -0.1419) .25mi
+2 _STYLE Satellite
+1 REFN 9 OCT 2011 22:41:02
+2 TYPE Creation Date
 1 CHAN
-2 DATE 3 JUN 2024
-3 TIME 17:07:14
-1 _URL https://en.wikipedia.org/wiki/Montréal_(territory_equivalent_to_a_regional_county_municipality)
+2 DATE 9 OCT 2011
+3 TIME 23:04:23
+1 _GCID 4AACC569-B039-42D5-B948-A48C1364F217
+0 @P39@ _PLC
+1 _PLACE Camberwell, Southwark, London, England
+1 REFN 21 FEB 2012 11:30:41
+2 TYPE Creation Date
+1 CHAN
+2 DATE 21 FEB 2012
+3 TIME 11:30:41
+1 _BOX Camberwell
+2 _BNDS (51.457118, -0.110990), (51.488190, -0.074730)
+1 _GCID 13E4019E-97E5-4895-810E-09133E6CC53E
+0 @P28@ _PLC
+1 _PLACE Crathie, Aberdeenshire, Grampian, Scotland
+1 REFN 9 OCT 2011 22:41:02
+2 TYPE Creation Date
+1 CHAN
+2 DATE 21 FEB 2012
+3 TIME 12:10:39
+1 _BOX Crathie
+2 _BNDS (57.035271, -3.220400), (57.075297, -3.192060)
+1 _GCID 6DDB3A41-A94C-4665-A204-13B94B8BFCE0
+0 @P35@ _PLC
+1 _PLACE Edinburgh, Lothian, Scotland
+1 REFN 9 OCT 2011 23:25:54
+2 TYPE Creation Date
+1 CHAN
+2 DATE 21 FEB 2012
+3 TIME 11:28:59
+1 _URL http://en.wikipedia.org/wiki/Edinburgh
 2 _LABEL Wikipedia
-1 _BOX Montréal
-2 _BNDS (45.402161, -73.999939), (45.704788, -73.476097)
+1 _BOX Edinburgh
+2 _BNDS (55.818877, -3.453949), (56.012217, -3.077119)
+1 _GCID B00CD542-9A5C-4846-B22D-365747C0C771
 0 @P3@ _PLC
 1 _PLACE England
 1 REFN 9 OCT 2011 22:41:02
@@ -1961,88 +2007,32 @@
 2 DATE 4 JUN 2018
 3 TIME 21:04:39
 1 _GCID 62EDA946-88A3-484D-A7FE-0262DC3D73D5
-0 @P41@ _PLC
-1 _PLACE Old Windsor, Berkshire, England
-1 REFN 21 FEB 2012 11:46:40
+0 @P6@ _PLC
+1 _PLACE Frimley, Surrey, England
+1 REFN 9 OCT 2011 22:41:02
 2 TYPE Creation Date
 1 CHAN
 2 DATE 21 FEB 2012
-3 TIME 11:46:40
-1 _BOX Old Windsor
-2 _BNDS (51.431339, -0.623279), (51.473807, -0.563529)
-2 _POI Old Windsor Library
-3 _GPS (51.464511, -0.586069)
+3 TIME 11:35:16
+1 _BOX Frimley
+2 _BNDS (51.299548, -0.761090), (51.323120, -0.71931)
+2 _POI Frimley Park Hospital
+3 _GPS (51.319670, -0.74156)
+3 _CODE HSP
+2 _POI Frimley Green Library
+3 _GPS (51.30294, -0.726260)
 3 _CODE LIBR
-1 _GCID 15606688-9F0C-4021-8D14-0BF6A73E155B
-0 @P34@ _PLC
-1 _PLACE Reading, Berkshire, England
-1 REFN 9 OCT 2011 23:13:59
+1 _GCID 4BF8D0BC-2EF0-4328-9557-EE68648E2C91
+0 @P25@ _PLC
+1 _PLACE Glamis, Angus, Tayside, Scotland
+1 REFN 9 OCT 2011 22:41:02
 2 TYPE Creation Date
 1 CHAN
 2 DATE 21 FEB 2012
-3 TIME 11:01:04
-1 _URL http://en.wikipedia.org/wiki/Reading,_Berkshire
-2 _LABEL Wikipedia
-1 _BOX Reading
-2 _BNDS (51.409889, -1.053029), (51.493130, -0.928470)
-2 _POI Bupa Dunedin Hospital
-3 _GPS (51.450220, -0.986820)
-3 _CODE HSP
-2 _POI Capio Reading Hospital
-3 _GPS (51.44455, -0.988310)
-3 _CODE HSP
-2 _POI Royal Berkshire Hospital
-3 _GPS (51.4514, -0.95865)
-3 _URL http://en.wikipedia.org/wiki/Royal_Berkshire_Hospital
-3 _CODE HSP
-1 _GCID 8F8DAE75-D6C5-4863-B8ED-84813EC1B865
-0 @P40@ _PLC
-1 _PLACE Windsor, Berkshire, England
-1 REFN 21 FEB 2012 11:37:56
-2 TYPE Creation Date
-1 CHAN
-2 DATE 21 FEB 2012
-3 TIME 11:37:56
-1 _BOX Windsor
-2 _BNDS (51.459980, -0.682259), (51.498150, -0.595319)
-2 _POI King Edward VII Hospital-Windsor SL4
-3 _GPS (51.4739, -0.614099)
-3 _CODE HSP
-2 _POI Eton Wick Library
-3 _GPS (51.497211, -0.635789)
-3 _CODE LIBR
-2 _POI Dedworth Branch Library
-3 _GPS (51.479889, -0.64354)
-3 _CODE LIBR
-2 _POI Eton Library
-3 _GPS (51.490608, -0.609369)
-3 _CODE LIBR
-1 _GCID 654CD247-57B7-43AF-A435-AD8F9B473C21
-0 @P42@ _PLC
-1 _PLACE Tetbury, Cotswold District, Gloucestershire, England
-1 REFN 21 FEB 2012 11:48:06
-2 TYPE Creation Date
-1 CHAN
-2 DATE 21 FEB 2012
-3 TIME 11:48:06
-1 _BOX Tetbury
-2 _BNDS (51.582400, -2.293480), (51.706477, -2.083559)
-2 _POI Tetbury Hospital
-3 _GPS (51.635219, -2.154669)
-3 _CODE HSP
-2 _POI Athelstan Museum
-3 _GPS (51.583599, -2.096610)
-3 _CODE MUS
-2 _POI Minchinhampton Library
-3 _GPS (51.705879, -2.187149)
-3 _CODE LIBR
-2 _POI Tetbury Library
-3 _GPS (51.636662, -2.163359)
-3 _CODE LIBR
-2 _POI Malmesbury Public Library
-3 _GPS (51.582821, -2.096620)
-3 _CODE LIBR
-1 _GCID 797AFDAF-0B85-4B37-9CD8-1944BB3E1023
+3 TIME 12:02:44
+1 _BOX Glamis
+2 _BNDS (56.600608, -3.015820), (56.628151, -2.993409)
+1 _GCID 824CA391-601B-4729-A61B-2B5313870DC8
 0 @P23@ _PLC
 1 _PLACE Gloucester, Gloucestershire, England
 1 REFN 10 AUG 2014 16:54:54
@@ -2057,16 +2047,31 @@
 1 _BOX Gloucester
 2 _BNDS (51.710650, -2.449759), (52.014870, -2.07151)
 1 _GCID 14D7D8F6-6970-4DAD-B4E1-D1FFFE000DCD
-0 @P36@ _PLC
-1 _PLACE Minchinhampton, Gloucestershire, England
-1 _BOX Town Center
-2 _BNDS 51.70510N,-2.1874W,1k
-1 REFN 5 MAY 2023 15:52:56
+0 @P5@ _PLC
+1 _PLACE Isle of Kerkira, Mon Repos, Corfu, Greece
+1 REFN 9 OCT 2011 22:41:02
 2 TYPE Creation Date
-1 _GCID 00147C62-D8D9-400A-AF0A-7C640AEC5AD5
+1 _URL http://en.wikipedia.org/wiki/Kerkyra_Prefecture
+2 _LABEL Wikipedia
+1 _BOX Isle of Kerkira
+2 _BNDS (39.119259, 19.37359), (39.900761, 20.25967)
 1 CHAN
-2 DATE 5 MAY 2023
-3 TIME 15:56:04
+2 DATE 21 FEB 2012
+3 TIME 11:52:17
+1 _GCID 451D4E5D-A131-4930-B100-CA383CCD8B3C
+0 @P26@ _PLC
+1 _PLACE Limerick, Ireland
+1 REFN 10 AUG 2014 17:11:44
+2 TYPE Creation Date
+1 NOTE @N37@
+1 _URL http://en.wikipedia.org/wiki/County_Limerick
+2 _LABEL Wikipedia
+1 _BOX Limerick
+2 _BNDS (52.279967, -9.366820), (52.756858, -8.155810)
+1 CHAN
+2 DATE 10 AUG 2014
+3 TIME 17:24:11
+1 _GCID D71EC051-2560-42AC-842F-DED9240F8884
 0 @P1@ _PLC
 1 _PLACE London, England
 1 REFN 9 OCT 2011 22:41:02
@@ -2108,17 +2113,19 @@
 3 _CODE LIBR
 3 _PNOTE Located at 64-68 Exhibition Road, close to the Imperial College just south of Hyde Park.
 1 _GCID 45768124-6338-400C-9C03-5FC846522F11
-0 @P14@ _PLC
-1 _PLACE Buckingham Palace, London, England
-1 _BOX Buckingham Palace
-2 _BNDS (51.5013, -0.1419) .25mi
-2 _STYLE Satellite
-1 REFN 9 OCT 2011 22:41:02
+0 @P32@ _PLC
+1 _PLACE Los Angeles, Los Angeles, California, United States
+1 REFN 4 JUN 2018 21:01:58
 2 TYPE Creation Date
+1 _GCID 3A752C81-BB1E-4BDE-9E28-DB327911B597
 1 CHAN
-2 DATE 9 OCT 2011
-3 TIME 23:04:23
-1 _GCID 4AACC569-B039-42D5-B948-A48C1364F217
+2 DATE 4 JUN 2018
+3 TIME 21:03:24
+1 _URL http://en.wikipedia.org/wiki/Los_Angeles,_California
+2 _LABEL Wikipedia
+1 _BOX Los Angeles
+2 _BNDS (33.694679, -118.723549), (34.33926, -117.929466)
+2 _STYLE Roadmap
 0 @P4@ _PLC
 1 _PLACE Marylebone, London, England
 1 REFN 9 OCT 2011 22:41:02
@@ -2129,89 +2136,51 @@
 1 _BOX Marylebone
 2 _BNDS (51.518180, -0.17068), (51.524261, -0.15137)
 1 _GCID 4E802832-4DF0-4A15-AFF2-A9E350CA50D3
-0 @P7@ _PLC
-1 _PLACE Paddington, London, England
-1 REFN 9 OCT 2011 22:41:02
+0 @P36@ _PLC
+1 _PLACE Minchinhampton, Gloucestershire, England
+1 _BOX Town Center
+2 _BNDS 51.70510N,-2.1874W,1k
+1 REFN 5 MAY 2023 15:52:56
+2 TYPE Creation Date
+1 _GCID 00147C62-D8D9-400A-AF0A-7C640AEC5AD5
+1 CHAN
+2 DATE 5 MAY 2023
+3 TIME 15:56:04
+0 @P37@ _PLC
+1 _PLACE Montréal, Montréal, Quebec, Canada
+1 REFN 3 JUN 2024 17:07:14
+2 TYPE Creation Date
+1 _GCID 87FBCC21-C15E-4F4D-85F9-9535D28701D7
+1 CHAN
+2 DATE 3 JUN 2024
+3 TIME 17:07:14
+1 _URL https://en.wikipedia.org/wiki/Montréal_(territory_equivalent_to_a_regional_county_municipality)
+2 _LABEL Wikipedia
+1 _BOX Montréal
+2 _BNDS (45.402161, -73.999939), (45.704788, -73.476097)
+0 @P41@ _PLC
+1 _PLACE Old Windsor, Berkshire, England
+1 REFN 21 FEB 2012 11:46:40
 2 TYPE Creation Date
 1 CHAN
 2 DATE 21 FEB 2012
-3 TIME 11:12:44
-1 _BOX Paddington
-2 _BNDS (51.503120, -0.20013), (51.524878, -0.16041)
-2 _POI Saint Mary's Hospital
-3 _CODE HSP
-3 _GPS (51.5174, -0.1741)
-1 _GCID 40CFFEA0-839A-4265-A442-50A724D7DC6F
-0 @P39@ _PLC
-1 _PLACE Camberwell, Southwark, London, England
-1 REFN 21 FEB 2012 11:30:41
+3 TIME 11:46:40
+1 _BOX Old Windsor
+2 _BNDS (51.431339, -0.623279), (51.473807, -0.563529)
+2 _POI Old Windsor Library
+3 _GPS (51.464511, -0.586069)
+3 _CODE LIBR
+1 _GCID 15606688-9F0C-4021-8D14-0BF6A73E155B
+0 @P38@ _PLC
+1 _PLACE Otley, Leeds City, West Yorkshire, England
+1 REFN 3 JUN 2024 17:12:16
 2 TYPE Creation Date
+1 _GCID 1DC0D3B3-41F6-4E24-B782-F24629A20312
 1 CHAN
-2 DATE 21 FEB 2012
-3 TIME 11:30:41
-1 _BOX Camberwell
-2 _BNDS (51.457118, -0.110990), (51.488190, -0.074730)
-1 _GCID 13E4019E-97E5-4895-810E-09133E6CC53E
-0 @P31@ _PLC
-1 _PLACE St. Paul's Cathedral, London, England
-1 _BOX St. Paul's Cathedral
-2 _BNDS (51.5137, -0.0985),.15m
-2 _STYLE Satellite
-1 REFN 9 OCT 2011 22:41:02
-2 TYPE Creation Date
-1 CHAN
-2 DATE 9 OCT 2011
-3 TIME 23:07:02
-1 _GCID C1BF82B0-871B-43E3-A1D9-171980A56205
-0 @P15@ _PLC
-1 _PLACE Westminster, London, England
-1 REFN 9 OCT 2011 22:41:02
-2 TYPE Creation Date
-1 CHAN
-2 DATE 21 FEB 2012
-3 TIME 11:18:13
-1 _BOX Westminster
-2 _BNDS (51.501491, -0.16685), (51.525230, -0.129260)
-2 _POI The Portland Hospital for Women and Children
-3 _CODE HSP
-3 _GPS (51.5231, -0.1444)
-1 _GCID F879AB87-725E-465B-879E-A381198EC8BC
-0 @P29@ _PLC
-1 _PLACE Westminster Abbey, London, England
-1 _BOX Westminster Abbey
-2 _BNDS (51.4995, -0.1276),.15m
-2 _STYLE Satellite
-1 REFN 9 OCT 2011 22:41:02
-2 TYPE Creation Date
-1 CHAN
-2 DATE 9 OCT 2011
-3 TIME 23:09:37
-1 _GCID E235F7B0-AECF-48FE-B3C1-1DDCA4B10D04
-0 @P27@ _PLC
-1 _PLACE Westminster Cathedral, London, England
-1 _BOX Westminster Cathedral
-2 _BNDS (51.4947, -0.1403), (51.4965, -0.1383)
-2 _STYLE Satellite
-1 REFN 9 OCT 2011 22:41:02
-2 TYPE Creation Date
-1 CHAN
-2 DATE 21 FEB 2012
-3 TIME 11:24:27
-1 _GCID C3202532-B9BC-4F3E-90A1-25386418B28E
-0 @P20@ _PLC
-1 _PLACE Sandringham, Norfolk, England
-1 _BOX The Town
-2 _BNDS  (52.8294, 0.5135) .6mi
-2 _POI Park House
-3 _GPS (52.8254, 0.5165)
-3 _PNOTE Lady Di was born here
-4 _DIST Anyone
-1 REFN 9 OCT 2011 22:41:02
-2 TYPE Creation Date
-1 CHAN
-2 DATE 9 OCT 2011
-3 TIME 23:00:21
-1 _GCID 348B14B8-D42A-4AF4-8112-D7A2B362DCC9
+2 DATE 3 JUN 2024
+3 TIME 17:12:16
+1 _BOX Otley
+2 _BNDS (53.88393, -1.73384), (53.919159, -1.63671)
 0 @P9@ _PLC
 1 _PLACE Oxford, Oxfordshire, England
 1 REFN 9 OCT 2011 22:41:02
@@ -2228,32 +2197,19 @@
 3 _URL http://en.wikipedia.org/wiki/John_Radcliffe_Hospital
 3 _CODE HSP
 1 _GCID 6DED30DC-E04C-4EB1-B437-87D306F07871
-0 @P6@ _PLC
-1 _PLACE Frimley, Surrey, England
+0 @P7@ _PLC
+1 _PLACE Paddington, London, England
 1 REFN 9 OCT 2011 22:41:02
 2 TYPE Creation Date
 1 CHAN
 2 DATE 21 FEB 2012
-3 TIME 11:35:16
-1 _BOX Frimley
-2 _BNDS (51.299548, -0.761090), (51.323120, -0.71931)
-2 _POI Frimley Park Hospital
-3 _GPS (51.319670, -0.74156)
+3 TIME 11:12:44
+1 _BOX Paddington
+2 _BNDS (51.503120, -0.20013), (51.524878, -0.16041)
+2 _POI Saint Mary's Hospital
 3 _CODE HSP
-2 _POI Frimley Green Library
-3 _GPS (51.30294, -0.726260)
-3 _CODE LIBR
-1 _GCID 4BF8D0BC-2EF0-4328-9557-EE68648E2C91
-0 @P38@ _PLC
-1 _PLACE Otley, Leeds City, West Yorkshire, England
-1 REFN 3 JUN 2024 17:12:16
-2 TYPE Creation Date
-1 _GCID 1DC0D3B3-41F6-4E24-B782-F24629A20312
-1 CHAN
-2 DATE 3 JUN 2024
-3 TIME 17:12:16
-1 _BOX Otley
-2 _BNDS (53.88393, -1.73384), (53.919159, -1.63671)
+3 _GPS (51.5174, -0.1741)
+1 _GCID 40CFFEA0-839A-4265-A442-50A724D7DC6F
 0 @P11@ _PLC
 1 _PLACE Paris, France
 1 REFN 9 OCT 2011 22:41:02
@@ -2306,81 +2262,42 @@
 2 DATE 21 FEB 2012
 3 TIME 11:27:23
 1 _GCID 9FDCF61B-E978-4BF0-A2CA-A6B547F830CD
-0 @P5@ _PLC
-1 _PLACE Isle of Kerkira, Mon Repos, Corfu, Greece
-1 REFN 9 OCT 2011 22:41:02
-2 TYPE Creation Date
-1 _URL http://en.wikipedia.org/wiki/Kerkyra_Prefecture
-2 _LABEL Wikipedia
-1 _BOX Isle of Kerkira
-2 _BNDS (39.119259, 19.37359), (39.900761, 20.25967)
-1 CHAN
-2 DATE 21 FEB 2012
-3 TIME 11:52:17
-1 _GCID 451D4E5D-A131-4930-B100-CA383CCD8B3C
-0 @P26@ _PLC
-1 _PLACE Limerick, Ireland
-1 REFN 10 AUG 2014 17:11:44
-2 TYPE Creation Date
-1 NOTE @N37@
-1 _URL http://en.wikipedia.org/wiki/County_Limerick
-2 _LABEL Wikipedia
-1 _BOX Limerick
-2 _BNDS (52.279967, -9.366820), (52.756858, -8.155810)
-1 CHAN
-2 DATE 10 AUG 2014
-3 TIME 17:24:11
-1 _GCID D71EC051-2560-42AC-842F-DED9240F8884
-0 @P30@ _PLC
-1 _PLACE Aberdeenshire, Scotland
-1 REFN 9 OCT 2022 14:02:22
-2 TYPE Creation Date
-1 _GCID 94E0939A-6702-494D-9148-9BAFD3EE3A2C
-0 @P28@ _PLC
-1 _PLACE Crathie, Aberdeenshire, Grampian, Scotland
-1 REFN 9 OCT 2011 22:41:02
+0 @P34@ _PLC
+1 _PLACE Reading, Berkshire, England
+1 REFN 9 OCT 2011 23:13:59
 2 TYPE Creation Date
 1 CHAN
 2 DATE 21 FEB 2012
-3 TIME 12:10:39
-1 _BOX Crathie
-2 _BNDS (57.035271, -3.220400), (57.075297, -3.192060)
-1 _GCID 6DDB3A41-A94C-4665-A204-13B94B8BFCE0
-0 @P35@ _PLC
-1 _PLACE Edinburgh, Lothian, Scotland
-1 REFN 9 OCT 2011 23:25:54
-2 TYPE Creation Date
-1 CHAN
-2 DATE 21 FEB 2012
-3 TIME 11:28:59
-1 _URL http://en.wikipedia.org/wiki/Edinburgh
+3 TIME 11:01:04
+1 _URL http://en.wikipedia.org/wiki/Reading,_Berkshire
 2 _LABEL Wikipedia
-1 _BOX Edinburgh
-2 _BNDS (55.818877, -3.453949), (56.012217, -3.077119)
-1 _GCID B00CD542-9A5C-4846-B22D-365747C0C771
-0 @P25@ _PLC
-1 _PLACE Glamis, Angus, Tayside, Scotland
+1 _BOX Reading
+2 _BNDS (51.409889, -1.053029), (51.493130, -0.928470)
+2 _POI Bupa Dunedin Hospital
+3 _GPS (51.450220, -0.986820)
+3 _CODE HSP
+2 _POI Capio Reading Hospital
+3 _GPS (51.44455, -0.988310)
+3 _CODE HSP
+2 _POI Royal Berkshire Hospital
+3 _GPS (51.4514, -0.95865)
+3 _URL http://en.wikipedia.org/wiki/Royal_Berkshire_Hospital
+3 _CODE HSP
+1 _GCID 8F8DAE75-D6C5-4863-B8ED-84813EC1B865
+0 @P20@ _PLC
+1 _PLACE Sandringham, Norfolk, England
+1 _BOX The Town
+2 _BNDS  (52.8294, 0.5135) .6mi
+2 _POI Park House
+3 _GPS (52.8254, 0.5165)
+3 _PNOTE Lady Di was born here
+4 _DIST Anyone
 1 REFN 9 OCT 2011 22:41:02
 2 TYPE Creation Date
 1 CHAN
-2 DATE 21 FEB 2012
-3 TIME 12:02:44
-1 _BOX Glamis
-2 _BNDS (56.600608, -3.015820), (56.628151, -2.993409)
-1 _GCID 824CA391-601B-4729-A61B-2B5313870DC8
-0 @P32@ _PLC
-1 _PLACE Los Angeles, Los Angeles, California, United States
-1 REFN 4 JUN 2018 21:01:58
-2 TYPE Creation Date
-1 _GCID 3A752C81-BB1E-4BDE-9E28-DB327911B597
-1 CHAN
-2 DATE 4 JUN 2018
-3 TIME 21:03:24
-1 _URL http://en.wikipedia.org/wiki/Los_Angeles,_California
-2 _LABEL Wikipedia
-1 _BOX Los Angeles
-2 _BNDS (33.694679, -118.723549), (34.33926, -117.929466)
-2 _STYLE Roadmap
+2 DATE 9 OCT 2011
+3 TIME 23:00:21
+1 _GCID 348B14B8-D42A-4AF4-8112-D7A2B362DCC9
 0 @P33@ _PLC
 1 _PLACE Santa Barbara, CA, Santa Barbara, USA
 1 REFN 18 DEC 2022 13:06:01
@@ -2395,6 +2312,99 @@
 2 _LABEL General
 1 _BOX Santa Barbara
 2 _BNDS (34.38699, -119.860741), (34.460621, -119.637039)
+0 @P31@ _PLC
+1 _PLACE St. Paul's Cathedral, London, England
+1 _BOX St. Paul's Cathedral
+2 _BNDS (51.5137, -0.0985),.15m
+2 _STYLE Satellite
+1 REFN 9 OCT 2011 22:41:02
+2 TYPE Creation Date
+1 CHAN
+2 DATE 9 OCT 2011
+3 TIME 23:07:02
+1 _GCID C1BF82B0-871B-43E3-A1D9-171980A56205
+0 @P42@ _PLC
+1 _PLACE Tetbury, Cotswold District, Gloucestershire, England
+1 REFN 21 FEB 2012 11:48:06
+2 TYPE Creation Date
+1 CHAN
+2 DATE 21 FEB 2012
+3 TIME 11:48:06
+1 _BOX Tetbury
+2 _BNDS (51.582400, -2.293480), (51.706477, -2.083559)
+2 _POI Tetbury Hospital
+3 _GPS (51.635219, -2.154669)
+3 _CODE HSP
+2 _POI Athelstan Museum
+3 _GPS (51.583599, -2.096610)
+3 _CODE MUS
+2 _POI Minchinhampton Library
+3 _GPS (51.705879, -2.187149)
+3 _CODE LIBR
+2 _POI Tetbury Library
+3 _GPS (51.636662, -2.163359)
+3 _CODE LIBR
+2 _POI Malmesbury Public Library
+3 _GPS (51.582821, -2.096620)
+3 _CODE LIBR
+1 _GCID 797AFDAF-0B85-4B37-9CD8-1944BB3E1023
+0 @P29@ _PLC
+1 _PLACE Westminster Abbey, London, England
+1 _BOX Westminster Abbey
+2 _BNDS (51.4995, -0.1276),.15m
+2 _STYLE Satellite
+1 REFN 9 OCT 2011 22:41:02
+2 TYPE Creation Date
+1 CHAN
+2 DATE 9 OCT 2011
+3 TIME 23:09:37
+1 _GCID E235F7B0-AECF-48FE-B3C1-1DDCA4B10D04
+0 @P27@ _PLC
+1 _PLACE Westminster Cathedral, London, England
+1 _BOX Westminster Cathedral
+2 _BNDS (51.4947, -0.1403), (51.4965, -0.1383)
+2 _STYLE Satellite
+1 REFN 9 OCT 2011 22:41:02
+2 TYPE Creation Date
+1 CHAN
+2 DATE 21 FEB 2012
+3 TIME 11:24:27
+1 _GCID C3202532-B9BC-4F3E-90A1-25386418B28E
+0 @P15@ _PLC
+1 _PLACE Westminster, London, England
+1 REFN 9 OCT 2011 22:41:02
+2 TYPE Creation Date
+1 CHAN
+2 DATE 21 FEB 2012
+3 TIME 11:18:13
+1 _BOX Westminster
+2 _BNDS (51.501491, -0.16685), (51.525230, -0.129260)
+2 _POI The Portland Hospital for Women and Children
+3 _CODE HSP
+3 _GPS (51.5231, -0.1444)
+1 _GCID F879AB87-725E-465B-879E-A381198EC8BC
+0 @P40@ _PLC
+1 _PLACE Windsor, Berkshire, England
+1 REFN 21 FEB 2012 11:37:56
+2 TYPE Creation Date
+1 CHAN
+2 DATE 21 FEB 2012
+3 TIME 11:37:56
+1 _BOX Windsor
+2 _BNDS (51.459980, -0.682259), (51.498150, -0.595319)
+2 _POI King Edward VII Hospital-Windsor SL4
+3 _GPS (51.4739, -0.614099)
+3 _CODE HSP
+2 _POI Eton Wick Library
+3 _GPS (51.497211, -0.635789)
+3 _CODE LIBR
+2 _POI Dedworth Branch Library
+3 _GPS (51.479889, -0.64354)
+3 _CODE LIBR
+2 _POI Eton Library
+3 _GPS (51.490608, -0.609369)
+3 _CODE LIBR
+1 _GCID 654CD247-57B7-43AF-A435-AD8F9B473C21
 0 @B1@ _BOK
 1 _DESC Sample GEDitCOM II Book
 1 _COPY Y
