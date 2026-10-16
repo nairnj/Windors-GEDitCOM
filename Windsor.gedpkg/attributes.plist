@@ -175,26 +175,13 @@
 			<string>INDI</string>
 			<key>Album Selected IDs</key>
 			<array>
-				<string>@I6@</string>
+				<string>@I51@</string>
 			</array>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
 				<string>view</string>
 				<string>BIRT.DATE.sdn</string>
-			</array>
-			<key>Album Type ID</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>Album Name</key>
-			<string>Families</string>
-			<key>Album Record Type</key>
-			<string>FAM</string>
-			<key>Album Sorting Array</key>
-			<array>
-				<integer>-1</integer>
-				<string>HUSB.view</string>
 			</array>
 			<key>Album Type ID</key>
 			<integer>0</integer>
@@ -354,10 +341,15 @@
 			<string>Great Grandchildren of Elizabeth</string>
 			<key>Album Record IDs</key>
 			<array>
+				<string>@I48@</string>
+				<string>@I51@</string>
 				<string>@I44@</string>
+				<string>@I46@</string>
+				<string>@I50@</string>
 				<string>@I32@</string>
 				<string>@I29@</string>
 				<string>@I45@</string>
+				<string>@I47@</string>
 				<string>@I33@</string>
 				<string>@I40@</string>
 				<string>@I31@</string>
@@ -372,6 +364,23 @@
 			</array>
 			<key>Album Type ID</key>
 			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Album Name</key>
+			<string>Reports</string>
+			<key>Album Record Type</key>
+			<string>_RPT</string>
+			<key>Album Selected IDs</key>
+			<array>
+				<string>@GR1@</string>
+			</array>
+			<key>Album Sorting Array</key>
+			<array>
+				<integer>-1</integer>
+				<string>view</string>
+			</array>
+			<key>Album Type ID</key>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>Save Thumbnails</key>
