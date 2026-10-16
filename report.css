@@ -1,0 +1,245 @@
+/* Redefine all elements */
+body {
+	background-color: #ffffff;
+}
+
+* {
+	font-size: 9pt;
+	line-height: 1.4;
+	font-family: "Lucida Grande", Helvetica, Arial;
+}
+	
+/* Redefine core elements, some with special cases */
+p {
+	margin-left: 9pt;
+}
+
+/* section elements */
+h1 {
+	font-size: 14pt;
+	color: #000;
+	border-bottom: solid;
+  	border-bottom-width: 2pt;
+	padding-top: 6px;
+}
+h2 {
+	font-size: 12pt;
+	color: #600;
+	margin-left: 3pt;
+	border-bottom: solid;
+  	border-bottom-width: thin;
+	padding-top: 3px;
+}
+h3 {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #060;
+	margin-left: 6pt;
+}
+
+.contents {
+	border: solid;
+	border-width: thin;
+	border-color: #aaa;
+	margin-left: 15pt;
+	padding: 0pt;
+	width: 400pt;
+	background-color: #eee;
+}
+
+/* unordered lists */
+ul {
+	list-style-type: square;
+	margin-left: 0pt;
+	margin-right: 0pt;
+}
+ul.ahnen {
+	list-style: none;
+	text-indent: -18pt;
+	margin-left: 6pt;
+	margin-right: 0pt;
+}
+ul.subahnen {
+	list-style: none;
+	text-indent: -12pt;
+	margin-left: -12pt;
+	margin-right: 0pt;
+}
+ul li {
+	margin-top: 1pt;
+	margin-bottom: 3pt;
+}
+
+/* ordered lists */
+ol {
+	margin-left: 3pt;
+	margin-right: 0pt;
+}
+ol li {
+	margin-top: 1pt;
+	margin-bottom: 3pt;
+}
+ol.treelistroot {
+	margin-left: -6pt;
+	margin-right: 0pt;
+	margin-top: 1pt;
+}
+ol.treelistroot li {
+	margin-top: 1pt;
+	margin-bottom: 0pt;
+}
+ol.treelist {
+	margin-left: -18pt;
+	margin-right: 0pt;
+	margin-top: 1pt;
+}
+ol.treelist li {
+	margin-top: 1pt;
+	margin-bottom: 0pt;
+}
+.spouse {
+	text-indent: -17pt;
+	margin-top: 1pt;
+}
+
+/* Definition lists - bold terms */
+dl {
+}
+
+dl dt {
+	font-weight: bold;
+	margin-bottom: 3px; 
+	margin-left: 12px;
+}
+dl dd {
+	margin-bottom: 9px;
+	margin-left: 28px;
+}
+
+/* display code in a box */
+pre {
+	margin-left: 20px;
+	margin-right: 18px;
+	font-size: 9pt;
+	font-family: Courier;
+	border: solid 1px #A1A5A9; 
+	padding: 6px;
+	background-color: #eeeeee;
+	line-height: 1.2;
+}
+
+/* tables */
+table {
+}
+
+blockquote {
+	background-color: #eeeeee;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	padding: 0px;
+	border: solid 2px #A1A5A9; 
+	color: #000000;
+	font-weight: normal;
+}
+
+
+/* link styles */
+a {
+	color: blue;
+	line-height: 11pt;
+	text-decoration: none
+}
+a:hover {
+	color: blue;
+	line-height: 11pt;
+	text-decoration: underline
+}
+
+/* Generic table elements
+*/
+
+table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin-left: 18pt;
+}
+
+table caption {
+	padding: 12px 2px 10px 2px;
+	color: #222222;
+	background-color: inherit;
+	font-weight: normal;
+	text-align: centered;
+}
+
+table thead th {
+	background-color: #E5E5D8;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	text-align:center;
+	padding: 8px 6px;
+	color:#592C16;
+}
+
+table tbody td {
+	border-left: 1px solid #ccc;
+	padding: 4px 8px;
+}
+
+table tfoot td {
+	border-top: 1px solid #ccc;
+	font-weight:bold;
+	color:#592C16;
+	padding: 12px 6px;		
+}
+
+/* Bar chart in a table
+*/
+.graph {
+	font-family: "Lucida Grande", Helvetica, Arial;
+	background-color: #E5E5D8
+}
+      
+.graph caption {
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: centered;
+}
+
+.graph tbody td {
+	padding: 2px 4px;
+	border-left: none;
+	font-family: "Lucida Grande", Helvetica, Arial;
+}
+      
+.graph thead th {
+	border-left: none;
+	border-bottom: double 3px #592C16;
+}
+    
+.graph tfoot td {
+	border-top: none;
+	font-size: x-small;
+	text-align: center;
+	padding: 0.5em;
+	color: #666666;
+}
+
+.bar {
+	background-color: white;
+	border-left: solid 1px black;
+}
+      
+.bar div { 
+	border-top: solid 2px #0077DD;
+	background-color: #004080;
+	border-bottom: solid 2px #002266;
+	color: white;
+	float: left;
+	padding-top: 0;
+	height: 18px;
+}
+

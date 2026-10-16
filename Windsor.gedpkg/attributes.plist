@@ -170,29 +170,12 @@
 	<array>
 		<dict>
 			<key>Album Name</key>
-			<string>Families</string>
-			<key>Album Record Type</key>
-			<string>FAM</string>
-			<key>Album Selected IDs</key>
-			<array>
-				<string>@F10@</string>
-			</array>
-			<key>Album Sorting Array</key>
-			<array>
-				<integer>-1</integer>
-				<string>HUSB.view</string>
-			</array>
-			<key>Album Type ID</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>Album Name</key>
 			<string>Individuals</string>
 			<key>Album Record Type</key>
 			<string>INDI</string>
 			<key>Album Selected IDs</key>
 			<array>
-				<string>@I1@</string>
+				<string>@I6@</string>
 			</array>
 			<key>Album Sorting Array</key>
 			<array>
@@ -205,13 +188,17 @@
 		</dict>
 		<dict>
 			<key>Album Name</key>
-			<string>Sources</string>
+			<string>Families</string>
 			<key>Album Record Type</key>
-			<string>SOUR</string>
+			<string>FAM</string>
+			<key>Album Selected IDs</key>
+			<array>
+				<string>@F10@</string>
+			</array>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
-				<string>view</string>
+				<string>HUSB.view</string>
 			</array>
 			<key>Album Type ID</key>
 			<integer>0</integer>
@@ -234,10 +221,32 @@
 			<string>Multimedia Objects</string>
 			<key>Album Record Type</key>
 			<string>OBJE</string>
-			<key>Album Selected IDs</key>
+			<key>Album Sorting Array</key>
 			<array>
-				<string>@M29@</string>
+				<integer>-1</integer>
+				<string>view</string>
 			</array>
+			<key>Album Type ID</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Album Name</key>
+			<string>Sources</string>
+			<key>Album Record Type</key>
+			<string>SOUR</string>
+			<key>Album Sorting Array</key>
+			<array>
+				<integer>-1</integer>
+				<string>view</string>
+			</array>
+			<key>Album Type ID</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Album Name</key>
+			<string>Notes</string>
+			<key>Album Record Type</key>
+			<string>NOTE</string>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
@@ -255,19 +264,6 @@
 			<array>
 				<string>@B1@</string>
 			</array>
-			<key>Album Sorting Array</key>
-			<array>
-				<integer>-1</integer>
-				<string>view</string>
-			</array>
-			<key>Album Type ID</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>Album Name</key>
-			<string>Notes</string>
-			<key>Album Record Type</key>
-			<string>NOTE</string>
 			<key>Album Sorting Array</key>
 			<array>
 				<integer>-1</integer>
